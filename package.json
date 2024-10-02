@@ -1,0 +1,14 @@
+{
+  "name": "facebook_clone",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/CSS/input.css -o ./src/CSS/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
