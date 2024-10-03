@@ -5,15 +5,48 @@
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Facebook | Clone</title>
 
-  <link rel="stylesheet" href="CSS/output.css">
+  <link href="img/logo-mobile.png" type="image/x-icon" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link href="CSS/output.css" rel="stylesheet">
 
 </head>
 
 <body>
- 
+  
+  <header class="text-center mt-3">
+    <h4 class="text-xs text-gray-main">Português (Brasil)</h4>
+  </header>
 
+  <main class="flex flex-col items-center mx-4">
+    <img class="w-16 h-16 my-28" src="img/logo-mobile.png">
+    
+    <div class="w-full">
+      <form class="w-full">
+        <input class="input-form" placeholder="Número do celular ou email" type="text">
+        <input class="input-form" placeholder="Senha" type="password">
+        <button class="w-full bg-blue-main text-white p-2 mb-5 border rounded-full">Entrar</button>
+      </form>   
+    </div>
+    <a class="text-sm" href="">Esqueceu a senha?</a>
+  </main>
+
+  <footer class="flex flex-col items-center mx-4 mt-56">
+    <a class="w-full text-center text-blue-main p-2 border border-blue-700 rounded-full">Criar nova conta</a>    
+    
+    <div class="flex flex-row my-4">
+      <img class="w-5 h-5" src="img/meta-icon.png">
+      <span class="text-gray-main font-semibold ml-1">Meta</span>
+    </div>
+
+    <ul class="flex space-x-4">
+      <li><a class="footer-mobile-ancors">Sobre</a></li>
+      <li><a class="footer-mobile-ancors">Mais</a></li>
+      <li><a class="footer-mobile-ancors">Ajuda</a></li>
+    </ul>
+  </footer>
   
 </body>
 
