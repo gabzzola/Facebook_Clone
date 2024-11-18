@@ -16,38 +16,100 @@
 
 <body>
   
-  <header class="text-center mt-3">
-    <span class="text-xs text-gray-main">Português (Brasil)</span>
+  <header class="text-center mt-3 md:hidden">
+    <span class="text-xs text-gray-main">
+      Português (Brasil)
+    </span>
   </header>
 
-  <main class="flex flex-col items-center mx-4">
-    <img class="w-16 h-16 my-28" src="img/logo-mobile.png">
-    
-    <div class="w-full">
-      <form class="w-full">
-        <input class="input-form" placeholder="Número do celular ou email" type="text">
-        <input class="input-form" placeholder="Senha" type="password">
-        <button class="w-full bg-blue-main text-white p-2 mb-5 border rounded-full">Entrar</button>
-      </form>   
-    </div>
-    <a class="text-sm" href="#">Esqueceu a senha?</a>
-  </main>
+  <div class="mx-auto md:w-980px md:mt-52">
+    <main class="grid grid-cols-1 md:grid-cols-2">
+      <img class="w-16 h-16 my-28 mx-auto md:hidden" src="img/logo-mobile.png">
+      
+      <div class="hidden md:flex md:flex-col md:mt-10">
+        <img class="w-290px -ml-7" src="img/logo-desktop.svg">
 
-  <footer class="flex flex-col items-center mx-4 mt-56">
-    <button class="w-full text-center text-blue-main p-2 border border-blue-700 rounded-full">Criar nova conta</button>    
-    
-    <div class="flex flex-row my-4">
-      <img class="w-5 h-5" src="img/meta-icon.png">
-      <span class="text-gray-main font-semibold ml-1">Meta</span>
-    </div>
+        <span class="w-96 text-xl ml-1">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+        </span>
+      </div>
 
-    <ul class="flex space-x-4">
-      <li><a class="footer-mobile-ancors">Sobre</a></li>
-      <li><a class="footer-mobile-ancors">Mais</a></li>
-      <li><a class="footer-mobile-ancors">Ajuda</a></li>
-    </ul>
-  </footer>
-  
+      <div class="mx-4">
+        <div class="container-form">
+          <form>
+            <input class="input-form" placeholder="Número do celular ou email" type="text">
+            <input class="input-form" placeholder="Senha" type="password">
+
+            <button class="w-full bg-blue-main text-white p-2 mb-5 border rounded-full">
+              Entrar
+            </button>
+          </form>  
+
+          <a class="flex justify-center text-sm" href="#">
+            Esqueceu a senha?
+          </a> 
+
+          <button class="w-full text-center text-blue-main border border-blue-700 rounded-full p-2 mt-52 md:mt-5">
+            Criar nova conta
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="flex flex-col items-center md:mt-60">
+      <div class="flex flex-row my-4 md:hidden">
+        <img class="w-5 h-5" src="img/meta-icon.png">
+        <span class="text-gray-main font-semibold ml-1">
+          Meta
+        </span>
+      </div>
+
+      <ul class="hidden md:flex md:flex-wrap md:mb-8">
+        <li><a class="footer-desktop-ancors">Português (Brasil)</a></li>
+        <li><a class="footer-desktop-ancors">English (US)</a></li>
+        <li><a class="footer-desktop-ancors">Espanõl</a></li>
+        <li><a class="footer-desktop-ancors">Français (France)</a></li>
+        <li><a class="footer-desktop-ancors">Italiano</a></li>
+        <li><a class="footer-desktop-ancors">Deutsch</a></li>
+      </ul>
+
+      <ul class="flex md:flex-wrap">
+        <li><a class="footer-desktop-ancors">Cadastre-se</a></li>
+        <li><a class="footer-desktop-ancors">Entrar</a></li>  
+        <li><a class="footer-desktop-ancors">Messenger</a></li>  
+        <li><a class="footer-desktop-ancors">Facebook Lite</a></li>
+        <li><a class="footer-desktop-ancors">Vídeo</a></li>
+        <li><a class="footer-desktop-ancors">Locais</a></li>
+        <li><a class="footer-desktop-ancors">Jogos</a></li>
+        <li><a class="footer-desktop-ancors">Marketplace</a></li>
+        <li><a class="footer-desktop-ancors">Meta Pay</a></li>
+        <li><a class="footer-desktop-ancors">Meta Store</a></li>
+        <li><a class="footer-desktop-ancors">Meta Quest</a></li>
+        <li><a class="footer-desktop-ancors">Ray-Ban Meta</a></li>
+        <li><a class="footer-desktop-ancors">Meta AI</a></li>
+        <li><a class="footer-desktop-ancors">Instagram</a></li>
+        <li><a class="footer-desktop-ancors">Threads</a></li>
+        <li><a class="footer-desktop-ancors">Campanhas de arrecadação de fundos</a></li>
+        <li><a class="footer-desktop-ancors">Serviços</a></li>
+        <li><a class="footer-desktop-ancors">Central de Informações de Votação</a></li>
+        <li><a class="footer-desktop-ancors">Política de Privacidade</a></li>
+        <li><a class="footer-desktop-ancors">Central de Privacidade</a></li>
+        <li><a class="footer-desktop-ancors">Grupos</a></li>
+        <li><a class="footer-ancors">Sobre</a></li>
+        <li><a class="footer-desktop-ancors">Criar anúncio</a></li>
+        <li><a class="footer-desktop-ancors">Criar Página</a></li>
+        <li><a class="footer-desktop-ancors">Desenvolvedores</a></li>
+        <li><a class="footer-desktop-ancors">Carreiras</a></li>
+        <li><a class="footer-desktop-ancors">Cookies</a></li>
+        <li><a class="footer-desktop-ancors">Escolhas para anúncios</a></li>
+        <li><a class="footer-desktop-ancors">Termos</a></li>
+        <li><a class="footer-ancors">Ajuda</a></li>
+        <li><a class="footer-desktop-ancors">Carregamento de contatos e não usuários</a></li>
+        <li><a class="footer-ancors md:hidden">Mais</a></li>
+      </ul>
+    </footer>
+  </div>
+
 </body>
 
 </html>

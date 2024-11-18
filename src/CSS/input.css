@@ -6,10 +6,18 @@ body {
   @apply font-poppins bg-gradient-to-r from-pink-50 via-blue-50 to-blue-100;
 }
 
+.container-form {
+  @apply md:bg-white md:border md:rounded-xl md:shadow-xl md:p-5 md:mb-10;
+}
+
 .input-form {
   @apply w-full text-base p-4 mb-3 border border-gray-300 rounded-xl placeholder-gray-main;
 }
 
-.footer-mobile-ancors {
-  @apply text-xs text-gray-main;
+.footer-ancors {
+  @apply text-xs text-gray-main mx-2 hover:underline;
+}
+
+.footer-desktop-ancors {
+  @apply hidden footer-ancors md:inline;
 }
